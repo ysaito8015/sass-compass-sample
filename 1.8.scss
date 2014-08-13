@@ -1,0 +1,16 @@
+@mixin horizontal-list($spacing: 10px) { 
+  li { 
+  float: left;
+  margin-right: $spacing;
+  }
+}
+
+#header u1.nav { 
+  @include horizontal-list; /* ディフォルト値を使う */
+  float: right;
+}
+
+#footer u1.nav {
+  @include horizontal-list(20px); /* $spacing に 20pxを設定 */
+  margin-top: 1em;
+}

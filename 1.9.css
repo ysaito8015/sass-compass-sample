@@ -1,0 +1,14 @@
+@charset "UTF-8";
+#header u1.nav {
+  /* ディフォルト値を使う */
+  float: right; }
+  #header u1.nav li {
+    float: left;
+    margin-right: 10px; }
+
+#footer u1.nav {
+  /* $spacing に 20pxを設定 */
+  margin-top: 1em; }
+  #footer u1.nav li {
+    float: left;
+    margin-right: 20px; }

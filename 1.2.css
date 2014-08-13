@@ -1,0 +1,4 @@
+u1.nav { float: right }
+u1.nav li { float: left; }
+u1.nav li a { color: #111 }
+u1.nav li.current { font-weight: bold; }

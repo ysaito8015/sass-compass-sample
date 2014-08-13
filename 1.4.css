@@ -1,0 +1,10 @@
+@charset "UTF-8";
+n1.nav {
+  float: right; }
+  n1.nav li {
+    float: left; }
+    n1.nav li a {
+      color: #111; }
+    n1.nav li.current {
+      /* &は「親セレクタ」を表し、この場合は、&.current は li.currentになります。 */
+      font-weight: bold; }

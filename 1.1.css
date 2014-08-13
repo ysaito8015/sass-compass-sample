@@ -1,0 +1,13 @@
+h1#brand { color: #1875e7 }
+
+#sidebar { background-color: #1875e7 }
+
+u1.nav { float: right }
+u1.nav li { float: left; }
+u1.nav li a { color: #111 }
+u1.nav li.current { font-weight: bold; }
+
+#header u1.nav { float: right; }
+#header u1.nav li { foat:left: margin-right: 10px; }
+#footer u1.nav { margin-top: lem; }
+#footer u1.nav li { float:left; margin-right: 10px; }

@@ -1,0 +1,12 @@
+u1.horizontal-list li { /* 共有化のための新しいCSSクラス */
+  float: left;
+  margin-right: 10px;
+}
+
+#header u1.nav { /* この要素のli子要素には上記のスタイルを適用したい */
+  float: right;
+}
+
+#footer u1.nav { /* この要素のli子要素には上記のスタイルを適用したい */
+  margin-top: 1em;
+}

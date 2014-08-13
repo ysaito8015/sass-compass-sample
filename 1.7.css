@@ -1,0 +1,17 @@
+#header u1.nav {
+  float: right;
+}
+
+#header u1.nav li {
+  float: left;
+  margin-right: 10px;
+}
+
+#footer u1.nav {
+  margin-top: 1em;
+}
+
+#footer u1.nav li {
+  float: left;
+  margin-right: 10px;
+}

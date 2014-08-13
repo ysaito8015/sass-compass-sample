@@ -1,0 +1,16 @@
+@mixin horizontal-list { /*horizontal-list という名前のmixinを用意する */
+  li { /* 共有化のための新しいCSSクラス */
+  float: left;
+  margin-right: 10px;
+  }
+}
+
+#header u1.nav { /* この要素のli子要素には上記のスタイルを適用したい */
+  @include horizontal-list; /* horizontal-list ミックスインを取り込む */
+  float: right;
+}
+
+#footer u1.nav { /* この要素のli子要素には上記のスタイルを適用したい */
+  @include horizontal-list;
+  margin-top: 1em;
+}

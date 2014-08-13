@@ -1,0 +1,13 @@
+n1.nav {
+  float: right;
+
+  li {
+    float: left;
+    a {
+      color: #111;
+    }
+    &.current { /* &は「親セレクタ」を表し、この場合は、&.current は li.currentになります。 */
+      font-weight: bold;
+    }
+  }
+}
